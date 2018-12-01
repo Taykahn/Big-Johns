@@ -1,0 +1,15 @@
+.page-content {
+	p {
+		color: $white;
+		letter-spacing: 2px;
+		word-spacing: 2px;
+	}
+	img {
+		padding-top: 14px;
+		max-width: -webkit-fill-available;
+		max-height: 800px;
+		@media ( max-width: 414px ) {
+			max-height: 600px;
+		}
+	}
+}

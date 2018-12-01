@@ -1,0 +1,42 @@
+@media ( min-width: 668px ) {
+	.header-parallax {
+		background-attachment: fixed;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 700px;
+	}
+}
+
+@media ( max-width: 668px ) {
+	.header-parallax {
+		margin-top: -12.9em;
+		background-size: cover;
+		background-position: center;
+		height: 735px;
+	}
+}
+
+
+.hero-content {
+	float: right;
+	padding-top: 21em;
+	@media ( max-width: 414px ) {
+		padding-top: 28em;
+	}
+	@media ( max-width: 375px ) {
+		padding-top: 24em;
+	}
+		h1 {
+			font-size: 100px;
+			color: $white;
+			letter-spacing: 14px;
+			opacity: .8;
+			font-family: Alfa+Slab+One;
+			text-shadow: $text-shadow1;
+			@media ( max-width: 414px ) {
+				font-size: 64px;
+				letter-spacing: 5px;
+			}
+		}
+}

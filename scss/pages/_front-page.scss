@@ -1,0 +1,136 @@
+@media ( max-width: 414px ) {
+	.list {
+		.col-md-6 {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+	}
+}
+
+.list-content {
+	padding: 30px;
+	h3, p {
+		color: $white;
+		text-shadow: $text-shadow1;
+		font-weight: bold;
+		letter-spacing: 3px;
+	}
+}
+
+.experience {
+	height: 400px;
+	@media ( max-width: 414px ) {
+		height: 150px;
+	}
+	h1 {
+		padding-top: 4em;
+
+		@media ( max-width: 414px ) {
+			padding-top: 1em;
+		}
+		text-align: center;
+		font-weight: bold;
+		font-family: AlfaSlabOne;
+		color: $white;
+	}
+}
+
+.wwd-title,
+.contact-us-title,
+.services-title {
+	h1 {
+		font-family: AlfaSlabOne;
+		margin-top: 2em;
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		@media ( max-width: 414px ) {
+			letter-spacing: 0px;
+		}
+		color: $white;
+	}
+	hr {
+		margin-left: 4em;
+		margin-right: 4em;
+		@media ( max-width: 414px ) {
+			margin-left: 1em;
+			margin-right: 1em;
+		}
+	}
+}
+
+.banner {
+	height: 350px;
+	max-width: 100%;
+	@media ( max-width: 414px ) {
+		height: 450px;
+	}
+}
+
+.wwd-section {
+	margin-left: 5em;
+	margin-right: 5em;
+	@media ( max-width: 414px ) {
+		margin-left: 0em;
+		margin-right: 0em;
+	}
+	.col-md-6 {
+		padding: 0px;
+	}
+}
+
+.wwd-content {
+	h3 {
+		margin-top: 0px;
+		padding-top: 4em;
+		font-family: AlfaSlabOne;
+		letter-spacing: 3px;
+		text-align: center;
+		font-size: 30px;
+		text-transform: uppercase;
+		text-shadow: $text-shadow1;
+		color: $white;
+		font-weight: bold;
+	}
+	p {
+		padding: 0 10px;
+		font-size: 20px;
+		letter-spacing: 2px;
+		font-weight: bold;
+		text-shadow: $text-shadow1;
+		color: $white;
+	}
+}
+
+.contact-heading {
+	h2 {
+		text-align: center;
+		color: $white;
+		letter-spacing: 3px;
+	}
+}
+
+.contact-form {
+	padding: 0 20px;
+}
+
+.fp-col-right {
+	h2 {
+		text-align: center;
+		color: $white;
+		letter-spacing: 3px;
+	}
+	p {
+		color: $white;
+		letter-spacing: 1px;
+	}
+	img {
+		max-width:  -webkit-fill-available;
+	}
+}
+
+.slick-image-slide-wrap {
+	img {
+		max-height: 400px;
+	}
+}

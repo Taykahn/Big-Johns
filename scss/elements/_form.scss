@@ -1,0 +1,34 @@
+.contact-us-section {
+	#wpforms-123-field_2 {
+		
+	}
+}
+
+.wpforms-container-full
+.wpforms-form
+.wpforms-field-label,
+.wpforms-container-full
+.wpforms-form
+.wpforms-field-sublabel {
+	color: $white;
+	letter-spacing: 2px;
+}
+
+.wpforms-container-full
+.wpforms-form
+button[type=submit] {
+	border-radius: 23px;
+}
+
+.wpforms-submit-container {
+	#wpforms-submit-123 {
+		display: block;
+		margin: auto;
+		background-color: transparent;
+		font-size: 20px;
+		padding: 8px 30px;
+		border: 1px solid #fff;
+		color: $white;
+		letter-spacing: 3px;
+	}
+}

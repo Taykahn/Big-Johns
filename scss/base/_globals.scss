@@ -1,0 +1,39 @@
+body {
+	font-family: 'Oswald', 'Arsenal', 'Alfa+Slab+One';
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	background-color: $background-green;
+}
+
+h1, h2, h3, h4 {
+	font-family: oswald;
+}
+
+p {
+	font-family: arsenal;
+}
+
+.slide-title {
+	display: none;
+}
+
+.slick-slider-short-content {
+	h1, p {
+		color: $white;
+	}
+}
+
+#page, #custom-page, #recent-work-page {
+	margin-top: 4em;
+	@media ( max-width: 414px ) {
+		margin-top: 0em;
+	}
+	margin-bottom: 4em;
+	h1 {
+		text-align: center;
+		letter-spacing: 3px;
+		font-weight: bold;
+		font-family: AlfaSlabOne;
+		color: $white;
+	}
+}
