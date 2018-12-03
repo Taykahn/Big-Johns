@@ -46,7 +46,7 @@
 
 			<div class="site-name">
 
-					<?php the_field( 'site_name', 'option' ); ?>
+				<?php the_field( 'site_name', 'option' ); ?>
 
 			</div><!-- .site-name -->
 

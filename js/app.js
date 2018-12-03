@@ -63,3 +63,13 @@ $(document).ready(function(){
 		});
 	}
 });
+
+
+$(function(){
+	$(".image-gallery").hide();
+	$("#igButton").on("click", function(){
+		$(".image-gallery, #imageGallery").toggle();
+	});
+});
+
+

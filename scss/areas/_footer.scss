@@ -8,6 +8,19 @@
 	@media ( max-width: 414px ) {
 		padding-left: 0px;
 	}
+	p {
+		a {
+			padding-left: 22px;
+			@media ( max-width: 414px ) {
+				padding-left: 6.8em;
+			}
+			@media ( max-width: 375px ) {
+				padding-left: 6em;
+			}
+			color: $white;
+			font-size: 17px;
+		}
+	}
 }
 
 @media ( max-width: 414px ) {

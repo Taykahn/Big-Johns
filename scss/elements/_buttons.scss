@@ -9,3 +9,23 @@
 	background-color: transparent;
 	border-color: $white;
 }
+
+#igButton {
+	border-radius: 20px;
+	background-color: transparent;
+	color: #fff;
+	padding-bottom: 2px;
+	font-size: 17px;
+	display: block;
+	margin: auto;
+}
+
+#igButton:hover {
+	font-weight: bold;
+}
+
+.custom-page-content {
+	button:focus {
+		outline:0;
+	}
+}

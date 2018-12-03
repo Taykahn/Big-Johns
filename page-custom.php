@@ -53,11 +53,23 @@ get_header(); ?>
 
 									<p><?php the_sub_field('content'); ?></p>
 
+									<button id="igButton">Gallery</button>
+
 							</div><!-- .col-md-6 -->
+
+							<div class='col-md-12'>
+
+								<div class="image-gallery" id="imageGallery">
+
+									<?php include( 'partials/ig-custom-page.php' ); ?>
+
+								</div><!-- .image-gallery -->
+
+						</div><!-- .col-md-12 -->
 
 						</div><!-- .row -->
 
-					</div><!-- .page-content -->
+					</div><!-- .page-content --><hr>
 
 				<?php endwhile; ?>
 
